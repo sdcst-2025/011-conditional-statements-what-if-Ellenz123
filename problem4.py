@@ -33,3 +33,17 @@ that is an obtuse triangle
 
 
 """
+
+a=input("a:")
+a=float(a)
+b=input("b:")
+b=float(b)
+c=input("c:")
+c=float(c)
+
+if a**2 == (b**2)+(c**2):
+    print("that is a right triangle")
+elif a**2 > (b**2)+(c**2):
+    print("that is an acute triangle")
+else:
+    print("that is an obtuse triangle")

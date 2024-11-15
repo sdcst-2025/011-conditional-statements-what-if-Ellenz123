@@ -29,3 +29,15 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+a=input("a:")
+a=float(a)
+b=input("b:")
+b=float(b)
+c=input("c:")
+c=float(c)
+
+if b**2-4*a*c >=0:
+    print("the equation can be factored")
+elif b**2-4*a*c <0:
+    print("the equation can not be factored")
